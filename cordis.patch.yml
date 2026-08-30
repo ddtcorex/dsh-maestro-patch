@@ -1,0 +1,6 @@
+# dsh-maestro-patch — zero-fork shim for ddtcorex/deepseek-harness customizations
+# One host row; client half discovered via package.json#dsh.client.
+- insert:
+    - id: maestro-patch
+      name: '@ddtcorex/dsh-maestro-patch'
+      inject: ['connection']
