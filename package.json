@@ -3,6 +3,14 @@
   "private": false,
   "version": "0.1.2",
   "description": "Zero-fork shim — reproduces ddtcorex/deepseek-harness fork patches via Maestro plugin (viewport, apple-touch-icon, trusted-proxy isLoopback, BlockAssembler, welcome-store)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ddtcorex/dsh-maestro-patch.git"
+  },
+  "engines": {
+    "node": "^22.19.0 || >=24.0.0"
+  },
   "type": "module",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
